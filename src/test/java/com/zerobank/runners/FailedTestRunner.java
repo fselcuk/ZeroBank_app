@@ -7,9 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"html:target/failed-html-report"},
-        features = "src/test/resources/features",
+        features = "@target/rerun.txt",
         glue = "com/zerobank/stepDefinitions"
 )
-public class FailedTestRunner {
+public class  FailedTestRunner {
 
 }
