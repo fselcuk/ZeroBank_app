@@ -64,7 +64,7 @@ public class Driver {
                     remoteCapability.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
                     remoteCapability.setCapability("platform",Platform.ANY);
                     try{
-                        driverPool.set(new RemoteWebDriver(new URL("http://18.212.6.39:4444/wd/hub"),remoteCapability));
+                        driverPool.set(new RemoteWebDriver(new URL("http://192.168.1.148:4444/wd/hub"),remoteCapability)); //from hub ..C:\Users\fehmi\OneDrive\Desktop\grid_windows\windows_start_hub_and_node.bat
                     } catch (MalformedURLException e){
                         e.printStackTrace();
                     }
