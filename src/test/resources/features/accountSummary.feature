@@ -4,7 +4,7 @@ Feature: Account Summary Functionality Testing
     Given the user is on the login page
     And User logins with username "username" and password "password"
 
-  @wip
+
   Scenario: Checking account summary page features
     And "Account Summary" page should be displayed
 
