@@ -5,7 +5,7 @@ Feature: Account Activity Page Functionality Testing
     And User logins with username "username" and password "password"
     Then "Account Summary" page should be displayed
 
-    @wip
+@wip
   Scenario: Account Activity Page functionality
     Given the user navigates to "Account Activity" page
     Then the page title should be "Zero - Account Activity"
